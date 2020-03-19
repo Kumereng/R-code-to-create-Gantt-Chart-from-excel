@@ -32,7 +32,7 @@ coll[13]="dark blue"
 coll[7]="dark blue"
 
 
-# starting date to begin plot
+## Starting date to begin plot
 start_date <- as.Date('2018-09-01')
 
 ggplot(df_melted, aes(value, task)) + 
@@ -46,4 +46,5 @@ ggplot(df_melted, aes(value, task)) +
         axis.text.x = element_text(angle = 90), axis.text.y = element_text(face = bold)) +
   scale_x_date(date_labels = "%Y %b", limits = c(start_date, NA), date_breaks = '1 month')
 
+##Change date_breaks to alter the scale of the y-axis(timeline)
 
