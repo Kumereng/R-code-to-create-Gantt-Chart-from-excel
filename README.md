@@ -1,4 +1,4 @@
-# R code to create Gantt Chart from excel
+# R code to create a Gantt Chart from excel
 
 Use this code in R to create your own Gantt chart from an excel document
 
