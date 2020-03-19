@@ -7,7 +7,7 @@ library(reshape2)
 library(ggplot2)
 rm(list = ls())
 
-##Change to filepath to your own
+##Change the filepath to your own
 dbq<-read_excel("/Users/kumerengovender/Desktop/Academic_work_2019/Transfer to DPhil Status/Document/Gantt_chart.xlsx",sheet="Sheet1") 
 print(dbq)
 
